@@ -18,7 +18,7 @@ public void start(Stage stage) throws Exception {
 	      Scene scene = new Scene(parent); 
 	      
 	      // Display our window, using the scene graph.
-	      stage.setTitle("TicTacToe"); 
+	      stage.setTitle("TicTacToe V2"); 
 	      stage.setScene(scene);
 	      stage.show(); 
 		
