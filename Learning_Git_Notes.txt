@@ -1,0 +1,23 @@
+changed from ssh as it seemed to have an issue with the ports?
+https://help.github.com/articles/changing-a-remote-s-url/
+upstream & origin similar
+upstreams was https and origin was ssh. Now both https
+Have to log in though
+
+######
+had to merge the online with the offline. Never do this
+#git pull origin master --allow-unrelated-histories
+Downloaded the readme.
+Next time do the online
+Then pull
+Then add files and so on
+
+
+Steps for git:
+git status #show files status
+Git add <filename>
+git commit -a -m "Comment with reason why"
+git push origin <branch> #normally not use master on actual projects
+
+#pull
+git pull origin <branch>
