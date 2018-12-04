@@ -101,7 +101,7 @@ public class TicTacToeController {
     	
     	//Row 1
     	if(imgView1.getImage() == imgView2.getImage() && imgView1.getImage() == imgView3.getImage()) {
-    		
+    		//Get image to find the winner
     	}
     	
     	//Row 2
