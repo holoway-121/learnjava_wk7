@@ -4,6 +4,7 @@ import java.util.Random;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.Dialog;
 import javafx.scene.control.RadioButton;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -57,6 +58,9 @@ public class TicTacToeController {
     {20,21,22}
     */
     
+    
+    
+    
     private int userChoice;
     
     private Image userPickedImg;
@@ -84,6 +88,66 @@ public class TicTacToeController {
     		userPickedImg = xImg;
     		userChoice = 0;
     	}
+    	
+    	//Call check for winner
+    	
+    }
+    
+    
+    public void winCheck() {
+    	//8 rows to win
+    	boolean gameOver = false;
+    	String result = "DRAW";
+    	
+    	//Row 1
+    	if(imgView1.getImage() == imgView2.getImage() && imgView1.getImage() == imgView3.getImage()) {
+    		
+    	}
+    	
+    	//Row 2
+    	if(imgView1.getImage() == imgView2.getImage() && imgView1.getImage() == imgView3.getImage()) {
+    		
+    	}
+    	
+    	//Row 3
+    	if(imgView1.getImage() == imgView2.getImage() && imgView1.getImage() == imgView3.getImage()) {
+    		
+    	}
+    	
+    	//Row 4
+    	if(imgView1.getImage() == imgView2.getImage() && imgView1.getImage() == imgView3.getImage()) {
+    		
+    	}
+    	
+    	//Row 5
+    	if(imgView1.getImage() == imgView2.getImage() && imgView1.getImage() == imgView3.getImage()) {
+    		
+    	}
+    	
+    	//Row 6
+    	if(imgView1.getImage() == imgView2.getImage() && imgView1.getImage() == imgView3.getImage()) {
+    		
+    	}
+    	
+    	//Row 7
+    	if(imgView1.getImage() == imgView2.getImage() && imgView1.getImage() == imgView3.getImage()) {
+    		
+    	}
+    	
+    	//Row 8
+    	if(imgView1.getImage() == imgView2.getImage() && imgView1.getImage() == imgView3.getImage()) {
+    		
+    	}
+    	
+    	
+    	
+    	if(gameOver == true) {
+        	Dialog dialog = new Dialog();
+            dialog.setTitle("Result");
+            dialog.setContentText(result);
+            dialog.showAndWait();
+    	}
+
     	
     }
     
